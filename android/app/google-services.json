@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "1053507259492",
+    "firebase_url": "https://test-44046.firebaseio.com",
+    "project_id": "test-44046",
+    "storage_bucket": "test-44046.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053507259492:android:65e8093b08c51a6628e371",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp_ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053507259492-0evf6ta36fue1fjrtfe3s4j41bmab9tb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsCQtETZHZeu002MkaVgmskqzYuq7KB9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053507259492-0evf6ta36fue1fjrtfe3s4j41bmab9tb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1053507259492-gtps6nk2suie8e9cq3tjgk2cce3uc79d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alphabank.app",
+                "app_store_id": "12123"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053507259492:android:eda7ff95e8afed3528e371",
+        "android_client_info": {
+          "package_name": "com.example.whatsappclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053507259492-0evf6ta36fue1fjrtfe3s4j41bmab9tb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsCQtETZHZeu002MkaVgmskqzYuq7KB9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053507259492-0evf6ta36fue1fjrtfe3s4j41bmab9tb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1053507259492-gtps6nk2suie8e9cq3tjgk2cce3uc79d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alphabank.app",
+                "app_store_id": "12123"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

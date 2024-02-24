@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter Debug",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "deviceId": "F3E388D2-6F06-4CF2-B25D-8181F3C19577"
+        },
+        {
+            "name": "Flutter Test",
+            "request": "launch",
+            "type": "dart",
+            "program": "test/widget_test.dart",
+            "deviceId": "F3E388D2-6F06-4CF2-B25D-8181F3C19577"
+        }
+    ]
+}
