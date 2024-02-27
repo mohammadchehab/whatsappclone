@@ -9,7 +9,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.whatsappclone</string>
+	<string>com.inkarted.whatsappclone</string>
 	<key>PROJECT_ID</key>
 	<string>test-44046</string>
 	<key>STORAGE_BUCKET</key>

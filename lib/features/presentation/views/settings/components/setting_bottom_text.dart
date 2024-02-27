@@ -20,7 +20,7 @@ class SettingBottomText extends StatelessWidget {
               style: context.titleMedium,
             ),
             TextSpan(
-              text: 'Mohamed Elgohary',
+              text: 'Settings',
               style: context.headlineMedium,
             ),
           ],

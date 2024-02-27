@@ -14,16 +14,13 @@ class BottomText extends StatelessWidget {
         children: [
           TextSpan(
             text: 'from\n',
-            style: context.headlineMedium,
+            style: context.titleMedium,
           ),
           TextSpan(
-            text: 'Mohamed El-Gohary',
-            style: context.headlineMedium!.copyWith(
-              color: context.colorScheme.onSecondaryContainer,
-              fontSize: 20,
-            ),
+            text: 'WhatsApp',
+            style: context.headlineMedium,
           ),
-        ],
+        ]
       ),
     );
   }

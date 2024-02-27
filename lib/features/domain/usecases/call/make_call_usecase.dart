@@ -1,6 +1,5 @@
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:whatsapp_flutter_clone/features/domain/entities/call.dart';
 
 import '../../../../core/error/failure.dart';
