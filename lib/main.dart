@@ -1,5 +1,6 @@
 import 'package:camera/camera.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:whatsapp_flutter_clone/features/presentation/controllers/call_cubit/call_cubit.dart';
@@ -17,7 +18,7 @@ import 'features/presentation/controllers/chat_background_cubit/chat_background_
 import 'features/presentation/controllers/chat_cubit/chat_cubit.dart';
 import 'features/presentation/controllers/select_contact_cubit/select_contact_cubit.dart';
 import 'features/presentation/views/camera/camera_screen.dart';
-//csccccccc
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
@@ -28,8 +29,9 @@ Future<void> main() async {
   cameras = await availableCameras();
   runApp(const MyApp());
 }
-//kjjkjkjkj
+
 class MyApp extends StatelessWidget {
+  
   const MyApp({super.key});
 
   @override
@@ -47,13 +49,13 @@ class MyApp extends StatelessWidget {
         BlocProvider(create: (context) => di.sl<ChatBackgroundCubit>()),
         BlocProvider(create: (context)=> di.sl<CallCubit>()),
       ],
-      child: MaterialApp(
+      child:  MaterialApp(
         title: AppStrings.appName,
         debugShowCheckedModeBanner: false,
         theme: createTheme(LightColors()),
         onGenerateRoute: AppRoutes.onGenerateRoute,
         initialRoute: Routes.splashRoute,
-      ),
+      ) 
     );
   }
 }
